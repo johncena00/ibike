@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-ibike.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ibikeTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-ibikeUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>27739C4DE2A6AE930CA82DC48B0059D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>449D0D13ADCCF9E52A7810683DF41598</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BDE6D4567087BECFC32194BC543A0759</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CF4254DEE8DEC89C8E3963F1478F4850</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

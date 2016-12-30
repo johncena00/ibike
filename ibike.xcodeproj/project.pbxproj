@@ -1,0 +1,746 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		547ADA91AFD2C211C6BE1FED /* Pods_ibikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 315681525C2DE790C47EFF2E /* Pods_ibikeUITests.framework */; };
+		7F9B4D97DDF867DB696A7E02 /* Pods_ibike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D3AEE8F19F9A18EFBB30843 /* Pods_ibike.framework */; };
+		E3000CC31D4B3AEB0045BE48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000CC21D4B3AEB0045BE48 /* AppDelegate.swift */; };
+		E3000CC81D4B3AEB0045BE48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3000CC61D4B3AEB0045BE48 /* Main.storyboard */; };
+		E3000CCA1D4B3AEB0045BE48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3000CC91D4B3AEB0045BE48 /* Assets.xcassets */; };
+		E3000CCD1D4B3AEB0045BE48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3000CCB1D4B3AEB0045BE48 /* LaunchScreen.storyboard */; };
+		E3000CD81D4B3AEB0045BE48 /* ibikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000CD71D4B3AEB0045BE48 /* ibikeTests.swift */; };
+		E3000CE31D4B3AEB0045BE48 /* ibikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000CE21D4B3AEB0045BE48 /* ibikeUITests.swift */; };
+		E3000CF31D4B42230045BE48 /* iBikeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000CF21D4B42230045BE48 /* iBikeTableViewController.swift */; };
+		E3000CF51D4B44610045BE48 /* iBikeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000CF41D4B44610045BE48 /* iBikeTableViewCell.swift */; };
+		E3000CF91D4B47500045BE48 /* iblkeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000CF81D4B47500045BE48 /* iblkeData.swift */; };
+		E3000CFD1D4DAE7C0045BE48 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3000CFC1D4DAE7C0045BE48 /* MapKit.framework */; };
+		E3000D031D4DDB2D0045BE48 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3000D021D4DDB2D0045BE48 /* MapViewController.swift */; };
+		E3815A901D5196F500899184 /* RouteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3815A8F1D5196F500899184 /* RouteTableViewController.swift */; };
+		E3CA64B31E05A7F200519821 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EE9D821E04708B00F988D0 /* SwiftyJSON.framework */; };
+		F9F008D11ACDADEF6C8D8AC3 /* Pods_ibikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33AA6E17ECD6E6047C88C46C /* Pods_ibikeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3000CD41D4B3AEB0045BE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3000CB71D4B3AEB0045BE48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3000CBE1D4B3AEB0045BE48;
+			remoteInfo = ibike;
+		};
+		E3000CDF1D4B3AEB0045BE48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3000CB71D4B3AEB0045BE48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3000CBE1D4B3AEB0045BE48;
+			remoteInfo = ibike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		315681525C2DE790C47EFF2E /* Pods_ibikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ibikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33AA6E17ECD6E6047C88C46C /* Pods_ibikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ibikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33F2436B1F0E5DD1FF02A44A /* Pods-ibike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibike.release.xcconfig"; path = "Pods/Target Support Files/Pods-ibike/Pods-ibike.release.xcconfig"; sourceTree = "<group>"; };
+		5450346A412B9E640369E4CD /* Pods-ibikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ibikeTests/Pods-ibikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		9D3AEE8F19F9A18EFBB30843 /* Pods_ibike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ibike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92B796E4462428AB8B05E68 /* Pods-ibikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ibikeTests/Pods-ibikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EACFAD7D7C08BADD9D38F3 /* Pods-ibikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ibikeUITests/Pods-ibikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B47A7902F6CBCF5863B7D0C0 /* Pods-ibike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ibike/Pods-ibike.debug.xcconfig"; sourceTree = "<group>"; };
+		E2E7D60ABC629926A9952721 /* Pods-ibikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ibikeUITests/Pods-ibikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E3000CBF1D4B3AEB0045BE48 /* ibike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ibike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3000CC21D4B3AEB0045BE48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E3000CC71D4B3AEB0045BE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E3000CC91D4B3AEB0045BE48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E3000CCC1D4B3AEB0045BE48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E3000CCE1D4B3AEB0045BE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3000CD31D4B3AEB0045BE48 /* ibikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3000CD71D4B3AEB0045BE48 /* ibikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibikeTests.swift; sourceTree = "<group>"; };
+		E3000CD91D4B3AEB0045BE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3000CDE1D4B3AEB0045BE48 /* ibikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3000CE21D4B3AEB0045BE48 /* ibikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibikeUITests.swift; sourceTree = "<group>"; };
+		E3000CE41D4B3AEB0045BE48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3000CF21D4B42230045BE48 /* iBikeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iBikeTableViewController.swift; sourceTree = "<group>"; };
+		E3000CF41D4B44610045BE48 /* iBikeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iBikeTableViewCell.swift; sourceTree = "<group>"; };
+		E3000CF81D4B47500045BE48 /* iblkeData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iblkeData.swift; sourceTree = "<group>"; };
+		E3000CFC1D4DAE7C0045BE48 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E3000D021D4DDB2D0045BE48 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E3815A8F1D5196F500899184 /* RouteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteTableViewController.swift; sourceTree = "<group>"; };
+		E3EE9D821E04708B00F988D0 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/ibike-avhannrbjfbkhyenlchwtafwjtmz/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3000CBC1D4B3AEB0045BE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3CA64B31E05A7F200519821 /* SwiftyJSON.framework in Frameworks */,
+				E3000CFD1D4DAE7C0045BE48 /* MapKit.framework in Frameworks */,
+				7F9B4D97DDF867DB696A7E02 /* Pods_ibike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000CD01D4B3AEB0045BE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F008D11ACDADEF6C8D8AC3 /* Pods_ibikeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000CDB1D4B3AEB0045BE48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547ADA91AFD2C211C6BE1FED /* Pods_ibikeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79F9BA15B73109DCA17EB062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3EE9D821E04708B00F988D0 /* SwiftyJSON.framework */,
+				9D3AEE8F19F9A18EFBB30843 /* Pods_ibike.framework */,
+				33AA6E17ECD6E6047C88C46C /* Pods_ibikeTests.framework */,
+				315681525C2DE790C47EFF2E /* Pods_ibikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C56081F05609BCBF5484CCB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B47A7902F6CBCF5863B7D0C0 /* Pods-ibike.debug.xcconfig */,
+				33F2436B1F0E5DD1FF02A44A /* Pods-ibike.release.xcconfig */,
+				A92B796E4462428AB8B05E68 /* Pods-ibikeTests.debug.xcconfig */,
+				5450346A412B9E640369E4CD /* Pods-ibikeTests.release.xcconfig */,
+				B0EACFAD7D7C08BADD9D38F3 /* Pods-ibikeUITests.debug.xcconfig */,
+				E2E7D60ABC629926A9952721 /* Pods-ibikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3000CB61D4B3AEB0045BE48 = {
+			isa = PBXGroup;
+			children = (
+				E3000CFC1D4DAE7C0045BE48 /* MapKit.framework */,
+				E3000CC11D4B3AEB0045BE48 /* ibike */,
+				E3000CD61D4B3AEB0045BE48 /* ibikeTests */,
+				E3000CE11D4B3AEB0045BE48 /* ibikeUITests */,
+				E3000CC01D4B3AEB0045BE48 /* Products */,
+				9C56081F05609BCBF5484CCB /* Pods */,
+				79F9BA15B73109DCA17EB062 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E3000CC01D4B3AEB0045BE48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3000CBF1D4B3AEB0045BE48 /* ibike.app */,
+				E3000CD31D4B3AEB0045BE48 /* ibikeTests.xctest */,
+				E3000CDE1D4B3AEB0045BE48 /* ibikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3000CC11D4B3AEB0045BE48 /* ibike */ = {
+			isa = PBXGroup;
+			children = (
+				E3000CC21D4B3AEB0045BE48 /* AppDelegate.swift */,
+				E3000CC61D4B3AEB0045BE48 /* Main.storyboard */,
+				E3000CC91D4B3AEB0045BE48 /* Assets.xcassets */,
+				E3000CCB1D4B3AEB0045BE48 /* LaunchScreen.storyboard */,
+				E3000CCE1D4B3AEB0045BE48 /* Info.plist */,
+				E3000CF21D4B42230045BE48 /* iBikeTableViewController.swift */,
+				E3000CF41D4B44610045BE48 /* iBikeTableViewCell.swift */,
+				E3000CF81D4B47500045BE48 /* iblkeData.swift */,
+				E3000D021D4DDB2D0045BE48 /* MapViewController.swift */,
+				E3815A8F1D5196F500899184 /* RouteTableViewController.swift */,
+			);
+			path = ibike;
+			sourceTree = "<group>";
+		};
+		E3000CD61D4B3AEB0045BE48 /* ibikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3000CD71D4B3AEB0045BE48 /* ibikeTests.swift */,
+				E3000CD91D4B3AEB0045BE48 /* Info.plist */,
+			);
+			path = ibikeTests;
+			sourceTree = "<group>";
+		};
+		E3000CE11D4B3AEB0045BE48 /* ibikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E3000CE21D4B3AEB0045BE48 /* ibikeUITests.swift */,
+				E3000CE41D4B3AEB0045BE48 /* Info.plist */,
+			);
+			path = ibikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3000CBE1D4B3AEB0045BE48 /* ibike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3000CE71D4B3AEB0045BE48 /* Build configuration list for PBXNativeTarget "ibike" */;
+			buildPhases = (
+				340EE5E2BA4B5BB79EAFAB1D /* [CP] Check Pods Manifest.lock */,
+				E3000CBB1D4B3AEB0045BE48 /* Sources */,
+				E3000CBC1D4B3AEB0045BE48 /* Frameworks */,
+				E3000CBD1D4B3AEB0045BE48 /* Resources */,
+				455EB694B2AF4DE5A8D92C50 /* [CP] Embed Pods Frameworks */,
+				15B9931FD9D06BC5F1D94077 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ibike;
+			productName = ibike;
+			productReference = E3000CBF1D4B3AEB0045BE48 /* ibike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3000CD21D4B3AEB0045BE48 /* ibikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3000CEA1D4B3AEB0045BE48 /* Build configuration list for PBXNativeTarget "ibikeTests" */;
+			buildPhases = (
+				FB4F870B74A4E47690776BD3 /* [CP] Check Pods Manifest.lock */,
+				E3000CCF1D4B3AEB0045BE48 /* Sources */,
+				E3000CD01D4B3AEB0045BE48 /* Frameworks */,
+				E3000CD11D4B3AEB0045BE48 /* Resources */,
+				481EA269746C143C1C920C5C /* [CP] Embed Pods Frameworks */,
+				03B4D5923457999B6DD63B17 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3000CD51D4B3AEB0045BE48 /* PBXTargetDependency */,
+			);
+			name = ibikeTests;
+			productName = ibikeTests;
+			productReference = E3000CD31D4B3AEB0045BE48 /* ibikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E3000CDD1D4B3AEB0045BE48 /* ibikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3000CED1D4B3AEB0045BE48 /* Build configuration list for PBXNativeTarget "ibikeUITests" */;
+			buildPhases = (
+				C55E401C2929461060E2B96A /* [CP] Check Pods Manifest.lock */,
+				E3000CDA1D4B3AEB0045BE48 /* Sources */,
+				E3000CDB1D4B3AEB0045BE48 /* Frameworks */,
+				E3000CDC1D4B3AEB0045BE48 /* Resources */,
+				519B32EBB99658206F870439 /* [CP] Embed Pods Frameworks */,
+				971F5D50F04CF176EDEE34A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3000CE01D4B3AEB0045BE48 /* PBXTargetDependency */,
+			);
+			name = ibikeUITests;
+			productName = ibikeUITests;
+			productReference = E3000CDE1D4B3AEB0045BE48 /* ibikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3000CB71D4B3AEB0045BE48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = devilcry;
+				TargetAttributes = {
+					E3000CBE1D4B3AEB0045BE48 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					E3000CD21D4B3AEB0045BE48 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = E3000CBE1D4B3AEB0045BE48;
+					};
+					E3000CDD1D4B3AEB0045BE48 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0820;
+						TestTargetID = E3000CBE1D4B3AEB0045BE48;
+					};
+				};
+			};
+			buildConfigurationList = E3000CBA1D4B3AEB0045BE48 /* Build configuration list for PBXProject "ibike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E3000CB61D4B3AEB0045BE48;
+			productRefGroup = E3000CC01D4B3AEB0045BE48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3000CBE1D4B3AEB0045BE48 /* ibike */,
+				E3000CD21D4B3AEB0045BE48 /* ibikeTests */,
+				E3000CDD1D4B3AEB0045BE48 /* ibikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3000CBD1D4B3AEB0045BE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3000CCD1D4B3AEB0045BE48 /* LaunchScreen.storyboard in Resources */,
+				E3000CCA1D4B3AEB0045BE48 /* Assets.xcassets in Resources */,
+				E3000CC81D4B3AEB0045BE48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000CD11D4B3AEB0045BE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000CDC1D4B3AEB0045BE48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03B4D5923457999B6DD63B17 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibikeTests/Pods-ibikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B9931FD9D06BC5F1D94077 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibike/Pods-ibike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		340EE5E2BA4B5BB79EAFAB1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		455EB694B2AF4DE5A8D92C50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibike/Pods-ibike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		481EA269746C143C1C920C5C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibikeTests/Pods-ibikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		519B32EBB99658206F870439 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibikeUITests/Pods-ibikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971F5D50F04CF176EDEE34A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibikeUITests/Pods-ibikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C55E401C2929461060E2B96A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB4F870B74A4E47690776BD3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3000CBB1D4B3AEB0045BE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3000CF31D4B42230045BE48 /* iBikeTableViewController.swift in Sources */,
+				E3000CC31D4B3AEB0045BE48 /* AppDelegate.swift in Sources */,
+				E3000CF51D4B44610045BE48 /* iBikeTableViewCell.swift in Sources */,
+				E3000D031D4DDB2D0045BE48 /* MapViewController.swift in Sources */,
+				E3000CF91D4B47500045BE48 /* iblkeData.swift in Sources */,
+				E3815A901D5196F500899184 /* RouteTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000CCF1D4B3AEB0045BE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3000CD81D4B3AEB0045BE48 /* ibikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3000CDA1D4B3AEB0045BE48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3000CE31D4B3AEB0045BE48 /* ibikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3000CD51D4B3AEB0045BE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3000CBE1D4B3AEB0045BE48 /* ibike */;
+			targetProxy = E3000CD41D4B3AEB0045BE48 /* PBXContainerItemProxy */;
+		};
+		E3000CE01D4B3AEB0045BE48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3000CBE1D4B3AEB0045BE48 /* ibike */;
+			targetProxy = E3000CDF1D4B3AEB0045BE48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3000CC61D4B3AEB0045BE48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3000CC71D4B3AEB0045BE48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E3000CCB1D4B3AEB0045BE48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3000CCC1D4B3AEB0045BE48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3000CE51D4B3AEB0045BE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E3000CE61D4B3AEB0045BE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3000CE81D4B3AEB0045BE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47A7902F6CBCF5863B7D0C0 /* Pods-ibike.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ibike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appData.ibike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E3000CE91D4B3AEB0045BE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33F2436B1F0E5DD1FF02A44A /* Pods-ibike.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ibike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appData.ibike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E3000CEB1D4B3AEB0045BE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92B796E4462428AB8B05E68 /* Pods-ibikeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ibikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appData.ibikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibike.app/ibike";
+			};
+			name = Debug;
+		};
+		E3000CEC1D4B3AEB0045BE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5450346A412B9E640369E4CD /* Pods-ibikeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ibikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appData.ibikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ibike.app/ibike";
+			};
+			name = Release;
+		};
+		E3000CEE1D4B3AEB0045BE48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0EACFAD7D7C08BADD9D38F3 /* Pods-ibikeUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ibikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appData.ibikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ibike;
+			};
+			name = Debug;
+		};
+		E3000CEF1D4B3AEB0045BE48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E7D60ABC629926A9952721 /* Pods-ibikeUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = ibikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appData.ibikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ibike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3000CBA1D4B3AEB0045BE48 /* Build configuration list for PBXProject "ibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3000CE51D4B3AEB0045BE48 /* Debug */,
+				E3000CE61D4B3AEB0045BE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3000CE71D4B3AEB0045BE48 /* Build configuration list for PBXNativeTarget "ibike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3000CE81D4B3AEB0045BE48 /* Debug */,
+				E3000CE91D4B3AEB0045BE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3000CEA1D4B3AEB0045BE48 /* Build configuration list for PBXNativeTarget "ibikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3000CEB1D4B3AEB0045BE48 /* Debug */,
+				E3000CEC1D4B3AEB0045BE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3000CED1D4B3AEB0045BE48 /* Build configuration list for PBXNativeTarget "ibikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3000CEE1D4B3AEB0045BE48 /* Debug */,
+				E3000CEF1D4B3AEB0045BE48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3000CB71D4B3AEB0045BE48 /* Project object */;
+}
